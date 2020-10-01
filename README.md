@@ -70,9 +70,17 @@ We are going to use a sample schema given to use by MySQL.
 
 1. What is the relationship between the "actor" and "film_actor" tables?
 
+They both use actor_id as a primary key.  It is the primary key for "actor".  However for "film_actor" it used in conjuction with film_id as a composite primary key.
+
 2. What does the blue diamond next to the "last_update" column on the "inventory" table represent?
 
+The blue fill (or any color fill) means it "Not Null"  Being blue means it is a normal key (if it was red it would be a foreign key)
+
 3. How many foreign keys does the "payments" table have? How can you tell?
+
+There are 3.  There are two red filled squares (which are not null) and one outlined red diamond which means foriegn but can be null.  The red tells you it is a foreign key.  You can also tell by the number of lines leaving the ER box.  
+
+
 
 ##### ER Diagram upload
 
