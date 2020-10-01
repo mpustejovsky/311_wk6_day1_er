@@ -72,6 +72,8 @@ We are going to use a sample schema given to use by MySQL.
 
 They both use actor_id as a primary key.  It is the primary key for "actor".  However for "film_actor" it used in conjuction with film_id as a composite primary key.
 
+It is a one (actor) to many(film_actor) relationship.
+
 2. What does the blue diamond next to the "last_update" column on the "inventory" table represent?
 
 The blue fill (or any color fill) means it "Not Null"  Being blue means it is a normal key (if it was red it would be a foreign key)
